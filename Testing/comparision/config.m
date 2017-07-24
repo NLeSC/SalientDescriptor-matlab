@@ -97,7 +97,7 @@ visualize_final = true;
 visualize_matching_cost = true;
 visualize_transf_similarity = true;
 vis_eval = true;
-binarized = true;
+binarized = false;
 sav = false;
 
 % execution parameters
@@ -192,7 +192,7 @@ if ispc
 else
     starting_path = fullfile(filesep,'home','elena');
 end
-project_path = fullfile(starting_path, 'eStep','LargeScaleImaging');
+project_path = fullfile(starting_path, 'eStep','SalientDescriptor-matlab');
 
 switch lower(dataset)
     case 'oxford'
@@ -223,9 +223,14 @@ if sav
     sav_fname = generate_results_fname(sav_path, scripts_name, format_dt);
 end
 
-if sav
+if ( binarized && sav )
+%if sav
     paths = v2struct(data_path_or, data_path_bin, ext_or, ext_bin, sav_path, sav_fname);
-else
+elseif ( binarized && not(sav) )
     paths = v2struct(data_path_or, data_path_bin, ext_or, ext_bin);
+elseif ( not(binarized) && sav)
+    paths = v2struct(data_path_or, ext_or, sav_path, sav_fname);    
+else
+    paths = v2struct(data_path_or, ext_or);
 end
 
