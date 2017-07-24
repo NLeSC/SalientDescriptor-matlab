@@ -37,8 +37,6 @@ if ispc
 else
     starting_path = fullfile(filesep,'home','elena');
 end
-project_path = fullfile(starting_path, 'eStep','LargeScaleImaging');
-sav_path = fullfile(project_path, 'Results', 'OxFrei','Comparision');
 
 switch upper(det_descr)
     case 'BIN_SURF' 
