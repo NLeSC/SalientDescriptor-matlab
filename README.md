@@ -11,6 +11,9 @@ Before running any tests, the test datasets 'Affine regions' and 'OxFrei' should
 
 The funciton 'config.m' contains important common parameters for the rest of  the software. 
 
+### Reference
+[cite IMVIP'17 paper when published]
+
 ### Also of interest
 [Salient detectors-matlab](https://github.com/NLeSC/SalientDetector-matlab)
 
