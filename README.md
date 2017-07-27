@@ -1,7 +1,7 @@
 
 # MATLAB software for image processing
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.56432.svg)](https://doi.org/10.5281/zenodo.56432)
+[![DOI](https://zenodo.org/badge/97616448.svg)](https://zenodo.org/badge/latestdoi/97616448)
 
 The software has been developed at tested on MATLAB 9.2, Release 2017a.
 
