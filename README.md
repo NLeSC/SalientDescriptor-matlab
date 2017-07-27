@@ -9,4 +9,4 @@ Before running any tests, the test datasets 'Affine regions' and 'OxFrei' should
 The funciton config.m contains important common parameters for the rest ofthe software. 
 
 
-The software has been developed at tested on MATLAB 2017a.
+The software has been developed at tested on MATLAB Release 2017a.
