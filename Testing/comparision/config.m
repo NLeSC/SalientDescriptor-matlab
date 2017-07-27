@@ -90,7 +90,7 @@ function [ exec_flags, exec_params, moments_params, cc_params, ...
     match_params, vis_params, paths] = config(scripts_name, dataset)
 
 %% execution flags
-publish = false;
+publish = true;
 visualize_dataset = false;
 visualize_test = false;
 visualize_final = true;
