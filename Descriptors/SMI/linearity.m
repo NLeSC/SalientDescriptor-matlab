@@ -148,6 +148,10 @@ function linearity = linearity_zm_closed_curve(line, res, len, method, mode)
 
 
 function linearity = linearity_zm_multi_start_point(line, res, len, mode)
+  if length(line) <= 2
+      linearity = 0;
+      return
+  end
   line(end,:) = [];     % Remove last element (because its same as first)
   lins = zeros(size(line,1),1); % pre alocate results
   
@@ -165,6 +169,10 @@ function linearity = linearity_zm_multi_start_point(line, res, len, mode)
   end
 
 function linearity = linearity_zm_formula(line, len, mode)
+    if length(line) <= 2
+      linearity = 0;
+      return
+    end
   line(end,:) = [];     % Remove last element (because its same as first)
 
   % Find point centroid
