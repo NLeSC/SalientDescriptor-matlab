@@ -83,7 +83,7 @@ end
         boundaries = bwboundaries(bw);
         for k = 1:length(boundaries)
             b =  {boundaries{k}};
-            lin.Linearity{k} = linearity(b,'ZM',0.01);
+            lin(k).Linearity = linearity(b,'ZM',0.01);
         end
     end
 

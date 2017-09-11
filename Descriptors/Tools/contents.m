@@ -22,3 +22,4 @@
 % show_labelmatrix - visualize a label matrix in a given figure/subplot
 %                    with title w or w/o labels
 % regions_subset2binary- makes a binary image from a subset binary regions
+% CATSTRUCT   Concatenate or merge structures with different fieldnames
