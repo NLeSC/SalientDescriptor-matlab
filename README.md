@@ -15,7 +15,7 @@ Before running any tests, the test datasets 'Affine regions' and 'OxFrei' should
 The funciton 'config.m' contains important common parameters for the rest of  the software. 
 
 ### Reference
-[cite IMVIP'17 paper when published]
+Ranguelova, E., [Local Shape and Moment Invariant Descriptor for Structured Images](http://eprints.maynoothuniversity.ie/8841/1/IMVIP2017_Proceedings.pdf), Proceedings of the 19th Irish Machine Vision and Image Processing (IMVIP) conference, Maynooth, Ireland, 2017, pp. 245-248
 
 ### Also of interest
 [Salient detectors-matlab](https://github.com/NLeSC/SalientDetector-matlab)
